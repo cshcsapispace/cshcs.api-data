@@ -3,20 +3,36 @@ Overview
 This repository contains a collection of synthetic data files, created as a case study for the purpose of hiring new analytics team members at Canadian Shield Healthcare Services. Please note that all data provided here is entirely fictional and has been generated for educational and evaluative purposes only.
 
 Data Files Description
-1. Clients_Final.json
-Content: This file includes detailed information about clients, such as client IDs, status (active or discharged), full names, dates of birth, gender, marital status, medical conditions, city, zip codes, and associated group IDs.
-Usage: Ideal for analyzing client demographics, medical conditions prevalence, and client distribution across different regions.
-2. Employee_Final.json
-Content: Contains employee-related data including employee IDs, full names, birthdays, genders, marital statuses, status in Canada (such as citizen, permanent resident, etc.), city, hire dates, termination dates (if applicable), employment types, job titles, and current employment status.
-Purpose: Useful for workforce analytics, employee demographics study, and understanding employment trends over time.
-3. Groups.json
-Content: This file lists various groups within the Canadian Shield Healthcare Services, with each group having a unique ID and name.
-Application: Can be used for analyzing the structure of the organization, distribution of clients or employees across different groups, and inter-group relations or comparisons.
-Note on Visits Data
-The visits_Final.csv file, which contains detailed records of visits, including timings, service codes, and employee-client interactions, is not included in this repository due to its large size. However, it forms a crucial part of the overall data set for comprehensive analysis.
-
-Use Case for Hiring
-Prospective analytics team members can utilize this data set to showcase their skills in data manipulation, analysis, and visualization. This case study aims to simulate real-world scenarios and challenges an analyst would face in the healthcare services sector, providing a hands-on opportunity to demonstrate their expertise.
+1. Clients
+File: Clients.json
+Content: Includes detailed information about clients such as IDs, status, full names, birth dates, gender, marital status, medical conditions, city, zip codes, and group IDs.
+Usage: Ideal for analyzing client demographics and medical condition prevalence.
+2. Employee
+File: Employee.json
+Content: Contains data on employees including IDs, full names, birthdays, genders, marital statuses, statuses in Canada, cities, hire and termination dates, employment types, job titles, and current status.
+Purpose: Useful for workforce analytics and employment trends study.
+3. Groups
+File: Groups.json
+Content: Lists groups within Canadian Shield Healthcare Services, each with a unique ID and name.
+Application: Can be used for analyzing organizational structure and group distribution.
+4. Visits (Quarterly Breakdown from 2020 to 2022)
+Files:
+Visits 2020 Q1
+Visits 2020 Q2
+Visits 2020 Q3
+Visits 2020 Q4
+Visits 2021 Q1
+Visits 2021 Q2
+Visits 2021 Q3
+Visits 2021 Q4
+Visits 2022 Q1
+Visits 2022 Q2
+Visits 2022 Q3
+Visits 2022 Q4
+Content: Detailed records of visits for each quarter from 2020 to 2022, including timings, service codes, employee-client interactions, etc.
+Purpose: Key for analyzing service delivery patterns, visit frequencies, and operational insights.
+Application for Hiring
+Prospective analytics team members are encouraged to utilize this dataset for demonstrating their skills in data manipulation, analysis, and visualization. The data represents a simulated real-world scenario in the healthcare services sector. Please refer to the specific instructions you will receive for the position you are applying for.
 
 Data Privacy and Ethics
-It is important to reiterate that the data in this repository is entirely fictitious and created for the purpose of this case study. It should be treated with the same level of confidentiality and ethical consideration as real-world healthcare data.# cshcs.api-data
+It is important to reiterate that the data in this repository is entirely fictitious and created for this case study. It should be treated with the same level of confidentiality and ethical consideration as real-world healthcare data.
